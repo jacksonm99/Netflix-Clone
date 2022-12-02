@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("/views/public/images/Netflix-1200x900-1-1.webp")  ;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    
+  }
+  
+  .cabecalho {
+    padding-left: 45px;
+    padding-top: 10px;
+    display: inline-flex;
+    align-items: center;
+   
+  }
+  .cabecalho a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu-topo ul li {
+    display: inline-block;
+    font-size: 13px;
+  }
+  .menu-topo li {
+    margin-left: 9px;
+  }
+  .menu-topo li :hover {
+    color: rgb(146, 141, 141);
+    transition: 0.5s;
+  }
+  
+  #login-container{
+    background-color: #000000ae;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+    margin-top: 20px;
+    border-radius: 2px;
+    
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    
+
+}
+
+
+
+
+ input{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+     padding: 18px 0px;
+     font-size: 15px;
+     border-radius:2px;
+     width: 100%;
+     background-color: rgb(105, 104, 104);
+     color: antiquewhite;
+
+ }
+
+ input[type="submit"]{
+     border: none;
+     border-radius: 2px;
+     text-align: center;
+     background-color: rgb(255, 0, 0);
+     font-weight: bold;
+     color: white;
+     cursor: pointer;
+     margin-top: 20px;
+
+ }
+ 
+h2{
+    font-size: 35px;
+}
+
+footer{
+    background-color: #000000ae;
+    display: flex;
+    
+}
+
